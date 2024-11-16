@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#search-section {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#search-btn,
+.borrow-btn,
+.return-btn {
+    margin-left: 20px;
+    padding: 8px 48px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#search-btn:hover,
+.borrow-btn:hover,
+.return-btn:hover {
+    background-color: #555;
+    transform: scale(1.25);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book {
+    width: calc(30% - 10px);
+    border: 5px solid #ccc;
+    border-radius: 35px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.book h3 {
+    margin-top: 0;
+}
+
+.book p {
+    margin: 5px 0;
+}
+
+.book-icon {
+    font-size: 64px;
+    position: absolute;
+    top: 42.5%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#cart {
+    border-top: 2px solid #333;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart p {
+    margin-top: 10px;
+}
